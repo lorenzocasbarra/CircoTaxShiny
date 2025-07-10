@@ -1,0 +1,24 @@
+Package: circotax.shiny
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Leandro", "Di Gloria", email = "", role = c("aut", "cre"))
+    person("Lorenzo", "Casbarra", email = "", role = c("aut", "cre"))
+    person("Matteo", "Ramazzotti", email = "matteo.ramazzotti@unifi.it", role = c("aut", "cre", "cph"))
+Description: Shiny package for a CircoTax plot.
+License: file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+biocViews:
+Imports:
+    shiny,
+    shinyjs,
+    ragg,
+    colourpicker,
+    circotax
+Remotes:
+		matteoramazzotti/CircoTax
+Depends: 
+    R (>= 3.5)
+LazyData: true
