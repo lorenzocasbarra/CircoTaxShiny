@@ -1,0 +1,55 @@
+
+#circoDiv {
+	display:flex;
+	align-content:center;
+	align-items:center;
+	justify-content: center;
+	border:1px solid black;
+	flex-direction: column;
+	border-radius:0.4%;
+}
+#circoSettingsDiv {
+	width: 100%;
+	display:flex;
+	flex-direction: row;
+	align-content:center;
+	align-items:center;
+	justify-content: flex-start;
+}
+#circo {
+	display:flex;
+	align-content:center;
+	align-items:center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.circo-settings-display {
+	position: absolute;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index:20;
+	padding:10px;
+	width:30%;
+	max-width: inherit;
+	margin-left:0;
+	border-radius: 2%;
+}
+
+#circoContainer {
+	width:100%;
+}
+
+#showCircoSettings,#showCircoPalette,#showCircoFilters,#showCircoAnnotation {
+	display:flex;
+	column-gap: 5px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row-reverse;
+}
+#circotax_ui-down {
+	margin-right: 0;
+  margin-left: auto;
+}
+
