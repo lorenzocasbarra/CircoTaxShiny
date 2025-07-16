@@ -290,6 +290,7 @@ CircoTaxServer <- function(
 					ramp=rampToUse(),
 					names=taxStart()
 				)
+			dev.off()
 		} 
 	)
 }
