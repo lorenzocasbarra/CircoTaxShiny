@@ -274,7 +274,7 @@ CircoTaxServer <- function(
   })
 	output$down <- shiny::downloadHandler(
 		filename =  function() {
-			paste("circo_plot", "png", sep=".")
+			paste0("circotax_plot_", Sys.Date(), ".png")
 		},
 		content = function(file) {
 			ragg::agg_png(file, width = 4000, height = 4000, units = "px", res = 300, scaling = 1)
