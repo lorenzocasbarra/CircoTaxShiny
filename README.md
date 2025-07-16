@@ -1,2 +1,2 @@
 # CircoTaxShiny
-R SHiny app for CircoTax
+R Shiny app for CircoTax
