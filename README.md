@@ -10,6 +10,15 @@ A live demo for this application is available at [shinyapps.io](https://lorenzoc
 	<img src="docs/img/circotax_shiny_widget.gif" width="50%"  title="CircoTax Shiny Widget">
 </p>
 
+## How to install
+
+To install with `devtools` :
+
+```r
+	library("devtools")
+	install_github("lorenzocasbarra/CircoTaxShiny")
+```
+
 
 ## `CircoTaxShinyUI()`
 
