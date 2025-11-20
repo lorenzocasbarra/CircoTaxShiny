@@ -7,7 +7,7 @@ A live demo for this application is available at [shinyapps.io](https://lorenzoc
 
 
 <p align="center">
-	<img src="docs/img/circotax_shiny_widget.gif" width="50%"  title="CircoTax Plot obtained from a complete taxonomy matrix.">
+	<img src="docs/img/circotax_shiny_widget.gif" width="50%"  title="CircoTax Shiny Widget">
 </p>
 
 
